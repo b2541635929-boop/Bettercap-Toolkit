@@ -1,0 +1,10 @@
+app:
+  name: "Bettercap Toolkit"
+  log_file: "logs/toolkit.log"
+  report_dir: "reports"
+bettercap:
+  executable: "bettercap"
+  timeout_seconds: 30
+safety:
+  active_modules_disabled_by_default: true
+  require_private_ipv4_targets: true
